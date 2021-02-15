@@ -1,0 +1,68 @@
+---
+title: "R Markdown"
+description: "Reporting with R"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+## Material
+
++ [Website](https://rmarkdown.rstudio.com/)
++ [Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
++ [Reference Guide](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.22207359.517504263.1612463535-735040435.1612463535)
++ [Book](https://bookdown.org/yihui/rmarkdown/)
+
+## Getting Started / Basics
+
+<Intro to R Markdown...>
+
+### Code
+
+#### Inline
+
+#### Chunks 
+
++ syntax
++ chunk options
++ other languages
+
+### Text
+
+#### Formatting
+
++ bold, italic, superscript, ...
++ bulleted/numbered list
++ math expressions: https://bookdown.org/yihui/rmarkdown/markdown-syntax.html#math-expressions
+
+#### Sections
+
++ headers
++ options
+  + unnumbered
+  + tabsets
+
+#### Links & Images
+
+### The YAML header
+
+## Visualizations & Tables
+
++ fig options
++ knitr::kable()
++ DT::datatable()
+
+## Advanced Stuff
+
+### Parameterized Reports
+
+### Child Documents
+
+https://bookdown.org/yihui/rmarkdown/parameterized-reports.html
+
+### Interactive Documents
+
+https://bookdown.org/yihui/rmarkdown/interactive-documents.html#intro-shiny
+
