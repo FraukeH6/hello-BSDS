@@ -1,12 +1,10 @@
-name: "R Markdown Websites Tutorial"
+name: "BSDS - Chrestos Circle"
 navbar:
-  logo:
-    image: img/Chrestos_logo_white.png
-    href: https://www.chrestos.de
+  title: "<img id=\"logo\" style=\"width: 100px;\" src=\"img/Chrestos_logo_white.png\" />"
   search: true
   left:
     - text: "Background"
-      # href: about.html
+      href: about.html
   right:
     - text: "#handsonTheory"
       menu:
@@ -26,21 +24,20 @@ navbar:
           # href: figures.html
         - text: "Result Report"
           # href: figures.html
-    - text: "#toDo"
-      # href: figures.html
-    - text: "#OtherStuff"
-      # href: figures.html
+    - text: "toDo"
+      href: figures.html
+    - text: "OtherStuff"
+      href: figures.html
     - text: "?"
       href: about.html
     - icon: fab fa-github
       href: https://github.com/chrestos/
 output:
-#  html_document:
-  distill::distill_article:
-    code_folding: true
+  html_document:
     self_contained: true
     highlight: tango
-    theme:     style/theme.css
+    theme: darkly
+    css: style/theme.css
     includes:
       after_body: style/_after_body.html
 ---

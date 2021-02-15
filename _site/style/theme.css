@@ -1,0 +1,49 @@
+
+/* base variables */
+
+/* Edit the CSS properties in this file to create a custom
+   Distill theme. Only edit values in the right column
+   for each row; values shown are the CSS defaults.
+   To return any property to the default,
+   you may set its value to: unset
+   All rows must end with a semi-colon.                      */
+
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+
+@import url('https://fonts.googleapis.com/css2?family=handlee');
+
+body {
+    font-family: sans-serif ;
+    font-size: 19px;
+}
+
+title {
+    font-family: handlee;
+    font-size: 24px;
+}
+
+/* links */
+a { 
+  color:#FF1493;
+}
+
+a:hover {
+ color: #FF1493; /* pink when hovering */
+}
+
+hover {
+ color: #FF1493; /* pink when hovering */
+}
+
+.section h1,
+.section h2, 
+.section h3, 
+.section h4, 
+.section h5 { 
+  padding-top: 3em !important; /*adding so much padding because theme adds a margin-top: -65px by default */
+  margin-bottom: 0.75em;
+  color: #0AB6BB;
+  font-family: handlee;
+}
+
