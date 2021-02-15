@@ -1,0 +1,65 @@
+---
+title: "Tidy-Progamming"
+description: "tidyverse()"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+```{r knitsetup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, out.width = "100%")
+```
+
+```{r packages, include=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(cccolr)
+```
+
+```{r options, include=FALSE}
+theme_set(theme_light() +
+    theme(
+        strip.background = element_rect(fill = "#98D8DC"),
+        strip.text = element_text(colour = "#FFFFFF")
+    )
+)
+```
+
+<!-- start ---------------------------------------------------------------- -->
+# What does `tidy` mean?
+
+Like you were supposed to tidy up your room being a child, you should use tidy coding/programming being a Biostatistician. To do so, you should get yourself familiar with the `tidyverse`.
+
+The main difference between `base R` and `tidyverse` is the way the code is organized and the use of **tibbles** instead of **data.frames**. While tibbles consist of data.frame, which is familiar to any baseR-Programmer, tibbles consists of multiple  other features which allow a smooth handling regarding data management (data wrangling) or statistical analysis.
+
+
+# What is the `tidyverse()`?
+
+The `tidyverse` is a collection of R packages, that were developed by Hadley Wickham to harmonize R languages. Designed to do data science, all packages share an underlying design philosophy, grammar, and data structures. If you want to read more, check out the webpage [https://www.tidyverse.org/](https://www.tidyverse.org/).
+
+Like any other R-package, you can install tidyverse as follows:
+
+```{r, eval=FALSE}
+install.packages("tidyverse") # install tidyverse
+library(tidyverse) #load tidyverse
+```
+
+
+# tidy Programming
+
+Within the tidyverse, single programming steps can be executed subsequently using a pipe operator (`%>%`). Moreover, tidy-programming is based on verbs, representing actions that should be applied to the data. 
+
+>**Tipp:** The short-key to write a pipe-operator is cmd + shift + m (Mac) and ctrl + shift + m (Windows).
+
+# tidymodels()
+
+
+
+
+
+
+
+<!-- end ------------------------------------------------------------------ -->
+
