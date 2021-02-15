@@ -1,0 +1,46 @@
+name: "R Markdown Websites Tutorial"
+navbar:
+  logo:
+    image: img/Chrestos_logo_white.png
+    href: https://www.chrestos.de
+  search: true
+  left:
+    - text: "Background"
+      # href: about.html
+  right:
+    - text: "#handsonTheory"
+      menu:
+        - text: "Projects & Structure"
+          # href: figures.html
+        - text: "RMarkdown"
+          href: 03_RMarkdown.html
+        - text: "Tidy-Programming"
+          href: 04_tidyR.html
+        - text: "Git"
+          # href: figures.html
+    - text: "#handsonPractice"
+      menu:
+        - text: "Data Sets"
+          # href: figures.html
+        - text: "Analysis Plan"
+          # href: figures.html
+        - text: "Result Report"
+          # href: figures.html
+    - text: "#toDo"
+      # href: figures.html
+    - text: "#OtherStuff"
+      # href: figures.html
+    - text: "?"
+      href: about.html
+    - icon: fab fa-github
+      href: https://github.com/chrestos/
+output:
+#  html_document:
+  distill::distill_article:
+    code_folding: true
+    self_contained: true
+    highlight: tango
+    theme:     style/theme.css
+    includes:
+      after_body: style/_after_body.html
+---
